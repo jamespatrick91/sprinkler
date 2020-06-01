@@ -1,2 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<reactbotUi:UserInterfaceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:reactbotUi="http://codebots.com/emf/reactbot/ui" TargetProject="sprinkler" />
+<reactbotUi:UserInterfaceModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:reactbotUi="http://codebots.com/emf/reactbot/ui" Uuid="edf7f262-a461-11ea-b6bd-6d6f75736579" TargetProject="sprinkler">
+  <Pages xsi:type="reactbotUi:Page" Uuid="d1bd1aa8-d673-477e-b268-c7292c209296" Name="home" Title="home" Description="home" IsHomePage="true"/>
+  <Tiles xsi:type="reactbotUi:TileCustom" Uuid="db2e86bb-a9eb-46d9-cdd0-1c23b219585a" Name="home Wrapping Tile" IsDefaultTile="true">
+    <ViewElements xsi:type="reactbotUi:View" Uuid="522e3048-d321-44dd-be2e-91ed78caf1dd" Name="home Wrapping View" DefaultView="true"/>
+  </Tiles>
+  <Tiles xsi:type="reactbotUi:TileCrud" Uuid="02166219-1496-4ea0-bf17-6349615947e4" Name="crud form">
+    <Entity href="../entity/sprinkler.csharpbotentity#f9eddbdc-af55-41bf-b0e6-23cda3fae93e"/>
+  </Tiles>
+  <Tiles xsi:type="reactbotUi:TileCrud" Uuid="b1d58e12-3f05-4ab9-b4f1-2d5f185e35a4" Name="other crud form">
+    <Entity href="../entity/sprinkler.csharpbotentity#1d113fdb-1a78-41c1-a385-24a0ef8d6528"/>
+  </Tiles>
+  <ReferenceViewViewElements xsi:type="reactbotUi:ReferenceViewTile" Uuid="5f8d039e-e938-4db7-8de1-cb935b907901" DisplayIndex="1" Source="522e3048-d321-44dd-be2e-91ed78caf1dd" Target="02166219-1496-4ea0-bf17-6349615947e4"/>
+  <ReferenceViewViewElements xsi:type="reactbotUi:ReferenceViewTile" Uuid="0ae5ced2-cbc3-4d9c-8ddd-e5e71b446f17" DisplayIndex="2" Source="522e3048-d321-44dd-be2e-91ed78caf1dd" Target="b1d58e12-3f05-4ab9-b4f1-2d5f185e35a4"/>
+  <ReferencePageTiles xsi:type="reactbotUi:ReferencePageTile" Uuid="1e7c1168-4918-46f3-9249-699740040b51" Source="d1bd1aa8-d673-477e-b268-c7292c209296" Target="db2e86bb-a9eb-46d9-cdd0-1c23b219585a"/>
+</reactbotUi:UserInterfaceModel>

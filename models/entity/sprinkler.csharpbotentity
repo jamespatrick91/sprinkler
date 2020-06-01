@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<csharpbotEntity:EntityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:csharpbotEntity="http://codebots.com/emf/csharpbot/entity" TargetProject="sprinkler" />
+<csharpbotEntity:EntityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:csharpbotEntity="http://codebots.com/emf/csharpbot/entity" Uuid="edf6e5de-a461-11ea-a496-6d6f75736579" TargetProject="sprinkler">
+  <Entities xsi:type="csharpbotEntity:Entity" Uuid="f9eddbdc-af55-41bf-b0e6-23cda3fae93e" Name="Users" DocoDescription="this is a user" DisplayName="users">
+    <Attributes xsi:type="csharpbotEntity:AttributeString" Uuid="aabf36f7-57f8-442f-b54e-3af3ca0cfbf1" Name="name" DocoDescription="test"/>
+  </Entities>
+  <Entities xsi:type="csharpbotEntity:Entity" Uuid="1d113fdb-1a78-41c1-a385-24a0ef8d6528" Name="UserProfiles" DocoDescription="profiles" DisplayName="userprofiles">
+    <Attributes xsi:type="csharpbotEntity:AttributeString" Uuid="39393c3e-fc5c-4421-9fdb-18176b4b3727" Name="name" DocoDescription="test"/>
+  </Entities>
+</csharpbotEntity:EntityModel>
