@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelink threeWay="true" forceExeedL="true" forceExeedM="true" forceExeedR="true">
+  <model path="/c0bd083d.sprinkler.models/ui/sprinkler.reactbotui" position="LEFT" />
+  <model path="/c0bd083d.sprinkler.models/entity/sprinkler.csharpbotentity" position="MIDDLE" />
+  <model path="/c0bd083d.sprinkler.models/security/sprinkler.commonsecurity" position="RIGHT" />
+</modelink>
